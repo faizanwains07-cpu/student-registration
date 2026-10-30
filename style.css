@@ -1,0 +1,13 @@
+
+
+
+.grid{
+	display:grid;
+	grid-template-columns:repeat( 3, 1fr);
+	gap:10px;
+}
+.grid div {
+	background-color:lightblue;
+	padding:20px;
+	border:2px solid black;
+}
